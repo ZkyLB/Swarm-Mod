@@ -1,0 +1,27 @@
+{
+    "type": "UnitFactory",
+	"name": "Swarm Factory",
+	"description": "Makes Swarm units.",
+	"unitType": "swarm",
+	"size": 1,
+    "hasPower": true,
+	"hasItems": true,
+	"produceTime": 250,
+	"maxSpawn": 8,
+	"consumes": {
+		"power": 0.5,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 10},
+				{"item": "thorium", "amount": 8}
+			]
+		}
+	},
+	"category": "units",
+	"research": "fortress-factory",
+	"requirements": [
+		{ "item": "silicon", "amount": 150 },
+		{ "item": "lead", "amount": 350 },
+		{ "item": "titanium", "amount": 65 }
+	]
+}

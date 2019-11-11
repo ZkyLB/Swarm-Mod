@@ -1,0 +1,37 @@
+
+{
+	"type": "flyingUnit",
+	"name": "Swarm",
+	"description": "A tiny flying unit. Quite harmless, but can literally kill you in a matter of seconds in huge groups. Becareful with this in PVP.",
+	"speed": 0.5,
+	"flying": true,
+	"health": 1250,
+	"engineOffset": 2.5,
+	"range": 160,
+	"weapon": {
+		"name": "Bloop",
+		"length": 1.7,
+		"reload": 2,
+		"alternate": true,
+		"bullet":{
+			"type": "BasicBulletType",
+			"damage": 12,
+			"speed": 8,
+			"lifetime": 5,
+			"hitEffect": "steam",
+			"despawnEffect": "steam",
+			"shootEffect": "shellEjectMedium",
+			"smokeEffect": "smeltsmoke",
+			"inaccuracy": 0.8,
+			"recoil": 1,
+			"statusEffect": "melting",
+			"splashDamageRadius": 65,
+			"splashDamage": 8,
+			"collidesTeam": true,
+			"fragBullets": 15,
+			"fragVelocityMin": 0.5,
+			"fragVelocityMax": 2,
+
+		}
+	}
+}
